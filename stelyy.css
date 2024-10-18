@@ -1,0 +1,647 @@
+.header {position: relative;
+    width: 100%;
+    height: 150px;
+
+    border: 2px solid rgb(17, 231, 224);
+    border-radius: 3%;
+    background-color:white;
+    font-size: 60px;
+    color: rgb(251, 249, 249);
+
+    
+}
+a{text-decoration: none;
+
+}
+.headerinside {
+    position: relative;
+    
+       
+    width: 200px;
+    height: 100px;
+    background-color:white;
+    font-size: 30px;
+    color: brown;
+    float: right;
+    margin-top: 7px;
+    margin-right: 40%;
+    border-radius: 200px;
+    
+}/*
+.headerinside2 {position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 200px;
+    background-color:white;
+    font-size: 30px;
+    color: brown;
+    float: left;
+    margin-top: 25px;
+    margin-left: 200px;
+    border-radius: 200px;
+    
+}*/
+.headerinside img{ width: 100%;
+    height: 100%;
+    border-radius: 200px;}
+    .headerinside2 img{ width: 300px;
+        height: 300px;
+        border-radius: 200px;}
+
+.menu {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-radius: 3%;
+    background-color:rgb(17, 231, 224);
+    margin-top: 20px;
+    font-size: 30px;
+    color: brown;
+
+
+
+}
+
+.menuinside {
+    transition: 0.5s ease-out;
+    position: relative;
+    width: 100px;
+    margin-right: 1px;
+    height: 20px;
+    border-left: 1px black solid;
+border-radius: 10%;
+    font-weight: bolder;
+    font-size: 15px;
+    padding-top: 10px;
+    color: rgb(22, 26, 21);
+float:right;
+text-align:center;
+
+} div a{
+
+
+color:black;
+text-align: left;
+
+}
+/*.menuinside nav ul li {
+    transition: 2s;
+
+    padding:7px;
+    
+    }
+.menuinside nav{
+
+display:block;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    width: 60px;
+    font-weight: bolder;
+  background-color: antiquewhite;  
+    z-index: 5;
+font-size: 25px;
+    padding:10px;
+    text-align: left;
+    
+    
+
+}
+.menuinside nav ul {
+text-align: center;
+    display: block;
+    list-style: none;
+cursor: pointer;
+   }*/
+   .menuinside:hover {
+
+    height: 80%;
+margin-right: 1%;
+background-color: rgb(185, 181, 181);
+    cursor: pointer;
+    color: rgb(235, 238, 243);
+
+   } 
+   .menuinside:hover nav {
+ background-color: rgba(98, 97, 96, 0.654);
+    display: block;
+    cursor: pointer;
+    color:black;
+    text-align: center;
+    padding-right: 20px;
+   } 
+.slider{
+border-radius: 20px;
+margin-top: 20px;
+position: relative;
+width: 60%;
+height: 370px;
+box-shadow: 5px 5px 15px black;
+
+background-image: url(IMG_20241009_172106_495.jpg);
+animation-name:photo ;
+animation-delay: 4s;
+animation-duration:20s ;
+animation-iteration-count: infinite;
+float: right;
+
+ } 
+ @keyframes photo{
+
+
+50%{background-image: url(VideoCapture_٢٠٢٤١٠٠٩-١٧٤٦٢٥.jpg);}
+70%{background-image: url(VideoCapture_٢٠٢٤١٠٠٩-١٧٤٦٢٩.jpg);}
+90%{background-image: url(VideoCapture_٢٠٢٤١٠٠٩-١٧٤٦٣٧.jpg);}
+
+ } 
+ .text{
+    margin-top: 20px;
+    position: relative;
+    width: 38%;
+    height: 670px;
+border-radius: 30px;
+float: left;
+background-color: rgb(17, 231, 224);
+text-align: right;
+
+}
+.textinsid{
+    margin-top: 35px;
+    position: relative;
+    width: 85%;
+    height: 100px;
+margin-left: 7%;
+ text-align: right;
+ border: dashed rgb(0, 110, 255);
+ border-radius: 20px;
+ padding-right: 2%;
+ padding-bottom: 5%;
+ }
+ .videos{
+
+
+    border-radius: 20px;
+    margin-top: 20px;
+    position: relative;
+    width: 60%;
+    height: 280px;
+    box-shadow: 5px 5px 15px black;
+    float: right;
+}
+div video{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+}
+
+.center{
+
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-radius: 3%;
+    background-color:rgb(17, 231, 224);
+
+    font-size: 200%;
+    color: brown;
+    margin-top: 710px;border-radius: 10px;
+    text-align: center;
+
+
+
+
+}
+
+.inside1{ position: relative;
+
+    width: 20%;
+    height: 20px ;
+    border-radius: 50px;
+     margin-top:100px;
+      margin-left: 39%; text-align:center; 
+       font-weight: bolder;color: black;
+        font-size: 35%;
+         border: solid white;
+
+
+
+}
+
+
+.inside2{ position: relative;
+
+    border-radius: 50px;
+     margin-top: 1px; 
+     margin-left: 39%;
+      text-align: center; 
+      padding: 5px;
+      font-weight: bold;
+       color: rgb(8, 192, 209); 
+       font-size: 25%;
+       width: 20%; height: 40px ;
+
+
+
+
+
+
+
+
+
+}
+.insidetext{ position: relative;
+
+    width: 80%;
+    height: 300px;
+    
+    margin-left: 10%;
+    margin-top: 50px;
+padding: 10px;
+color: rgb(29, 31, 31);
+font-size: 60px;
+text-align: center;
+}
+
+.inside img{ position: relative;
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+}
+    
+
+
+
+
+
+
+.left {
+    position: relative;
+    width: 32.5%;
+    height: 200px;
+    float: left;
+    margin-top: 25px;
+    margin-right: 1px;
+
+}
+
+.left img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.tailinside{
+    width: 20%;  height: 80px;
+    border-radius: 50px;
+ padding-top: 40px;
+      text-align: center; 
+       font-weight: bolder; 
+       font-size: 200%;
+    
+float: right;
+  }
+@media (max-width:600px){.header {
+    
+    height: 80px;
+}
+    .headerinside{
+ 
+    
+        width: 25%;
+        height: 50px;
+        background-color:white;
+        font-size: 10px;
+        color: brown;
+        float: left;
+        margin-top: 2px;
+    
+    margin-left:38% ;
+    }
+    .inside1{ 
+
+        width: 25%;
+        height: 20% ;
+        border-radius: 50px;
+         margin-top:50px;
+          float: center; 
+          
+    
+          margin-left: 38%;
+            font-size: 18%;
+             
+    
+    
+    
+    }
+    .inside2{ 
+        width: 25%;
+        height: 15% ;
+        border-radius: 50px;
+         margin-top:-10px;
+          float: center; 
+          margin-left: 37%;
+            font-size: 15%;
+             
+        
+        
+        
+    }
+
+    .menu {
+       
+        width: 100%;
+        height: 20px;
+    }
+       
+    .menuinside {
+        
+        
+        width: 16%;
+        margin-right: 0.5px;
+        height: 10px;
+        font-size: 22%;
+    }
+    
+    .slider{
+        border-radius: 20px;
+        margin-top: 20px;
+        position: relative;
+        width: 100%;
+        height: 200px;
+    }
+    
+    
+    .text{
+        margin-top: 20px;
+        position: relative;
+        width: 100%;
+        height: 400px;}
+
+
+        .textinsid{ position: relative;
+
+           
+            height: 50px;
+    font-size: 20%; }       
+    
+    .videos{
+       
+        
+        
+        width: 80%;
+        height: 160px;
+        box-shadow: 2px 2px 8px black;
+        float: left;
+        margin-left: 10%;
+     } 
+     .center{
+
+      
+      
+        height: 20px;
+        border-radius: 1%;
+       
+    padding-top: 1%;
+        font-size: 100%;
+        color: brown;
+        margin-top: 830px;
+        border-radius: 10px;
+        text-align: center;
+    
+    
+    
+    
+    }   
+    .left {
+        position: relative;
+        width: 49.5%;
+        height: 100px;
+        float: left;
+        margin-top: 25px;
+        margin-right: 1px;
+    
+    }
+    .tailinside{font-size: 130%;}
+     
+.content-box .column{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.content-box .column  a:last-child{
+    line-height :80vw;
+    font-size: 6vw;
+}
+}
+
+
+
+
+
+
+    
+
+    
+    
+    
+
+    
+    
+    
+.lefttt {
+    position: relative;
+    width: 30%;
+    height: 1000px;
+
+    float: left;
+    margin-left: 190px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right {
+    position: relative;
+    width: 30%;
+    height: 1000px;
+    
+    float: right;
+    margin-top: 100px;
+    font-size: 55px;
+    text-align: right;
+    color: aliceblue;
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tail{position:relative;
+
+    width: 100%;
+    height: 110px;
+    background-color: rgb(17, 231, 224);
+    margin-top: 500px;
+  }
+
+
+
+
+
+
+
+
+
+
+  .tailinside2{
+    width: 40px;  height: 40px;
+    border-radius: 100px;  
+       
+float:left;
+margin-top: 30px;
+margin-left: 3%;
+  }
+ a img{
+    width: 80%;  height: 80%;
+    border-radius: 100%;  
+  }
+/*الاقسام*/
+.text2{
+    margin-top: 20px;
+    position: relative;
+    width: 20%;
+    height: 670px;
+border-radius: 30px;
+float: right;
+background-color: rgb(17, 231, 224);
+text-align: center;
+padding-top: 10px;
+font-weight: bolder;
+font-size: 100%;
+}
+.textinsid2{
+    margin-top: 20px;
+    position: relative;
+    width: 85%;
+    height: 150px;
+margin-left: 5%;
+
+ text-align: right;
+ border: dashed rgb(0, 110, 255);
+ border-radius: 20px;
+ padding-right: 2%;
+ padding-bottom: 15%;
+ padding-right: 10px;
+ }
+ .menu2 {
+    position: relative;
+    width: 77%;
+    height: 35px;
+    border-radius: 10%;
+    background-color:rgb(17, 231, 224);
+    margin-top: 20px;
+    font-size: 100%;
+    color: brown;
+    float: left;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+
+ }.left2 {
+    position: relative;
+    width: 68.5%;
+    height: 400px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+
+}
+
+.left2 img{
+
+    width: 100%;
+    height: 100%;
+
+}
+@media (max-width:600px){
+    .menu2 {
+   
+        width: 100%;
+        height: 17px;
+        border-radius: 10%;
+        background-color:rgb(17, 231, 224);
+        font-size: 100%;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 2px;}
+    .text2{
+    
+    
+        width: 38%;
+        height: 400px;
+    border-radius: 30px;
+    float: right;
+    background-color: rgb(17, 231, 224);
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 5px;
+    font-weight: bolder;
+    font-size: 80%;
+    padding-right: 5px;
+    }
+    .textinsid2{
+        margin-top: 20px;
+        position: relative;
+        width: 85%;
+        height: 100px;
+    margin-left: 5%;
+    font-size: 100%;
+    
+     text-align: right;
+     border: none;
+     border-radius: 20px;
+     padding-right: 2%;
+     padding-bottom: 8%;
+     padding-right: 5px;
+     }
+    .left2 {
+            position: relative;
+            width: 57.5%;
+            height: 400px;
+            float: left;
+            margin-top: 5px;
+        margin-left: 2px;
+
+            }
+
+}
