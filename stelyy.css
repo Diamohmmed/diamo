@@ -66,7 +66,7 @@ a{text-decoration: none;
 .menuinside {
     transition: 0.5s ease-out;
     position: relative;
-    width: 100px;
+    width: 16%;
     margin-right: 1px;
     height: 20px;
     border-left: 1px black solid;
@@ -167,7 +167,7 @@ text-align: right;
 
 }
 .textinsid{
-    margin-top: 35px;
+    margin-top: 15px;
     position: relative;
     width: 85%;
     height: 100px;
