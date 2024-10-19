@@ -123,14 +123,14 @@ background-color: rgb(185, 181, 181);
     color: rgb(235, 238, 243);
 
    } 
-   .menuinside:hover nav {
+  /* .menuinside:hover nav {
  background-color: rgba(98, 97, 96, 0.654);
     display: block;
     cursor: pointer;
     color:black;
     text-align: center;
     padding-right: 20px;
-   } 
+   } */
 .slider{
 border-radius: 20px;
 margin-top: 20px;
